@@ -1,7 +1,11 @@
-# This is a sample Python script.
+#Natural Language processing (NLP) tests in English
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# Required and setup
+# Python 3.10 or greater
+# pip2 install nltk
+# /Applications/Python\ 3.10/Install\ Certificates.command
+# python3 -m nltk.downloader all
+
 import nltk
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
